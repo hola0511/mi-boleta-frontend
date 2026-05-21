@@ -307,21 +307,3 @@ npm run lint
 ```
 
 Este comando revisa posibles errores de estilo o sintaxis en el código.
-
----
-
-## Notas importantes
-
-- El backend no forma parte de este repositorio.
-- No se debe modificar el backend para esta solución.
-- No se debe subir `.env.local`.
-- La URL de la API debe configurarse mediante `NEXT_PUBLIC_API_URL`.
-- Si aparece una ruta como `/undefined/auth/register`, significa que la variable de entorno no está configurada correctamente.
-- Si el backend devuelve errores de Prisma como `ECONNREFUSED` o `P1000`, el problema está en la conexión con PostgreSQL, no en el frontend.
-- Después de modificar `.env.local`, se debe reiniciar el servidor de Next.js.
-
----
-
-## Autor
-
-Proyecto desarrollado como solución frontend para la práctica **Mi Boleta**.
