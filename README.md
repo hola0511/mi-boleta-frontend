@@ -48,18 +48,5 @@ Antes de ejecutar este proyecto, debes tener instalado:
 
 También debes tener el backend de **Mi Boleta API** ejecutándose localmente en:
 
+```txt
 http://localhost:4000/api/v1
-
-Instalación
-
-Clona este repositorio:
-
-git clone https://github.com/TU_USUARIO/mi-boleta-frontend.git
-
-Entra a la carpeta del proyecto:
-
-cd mi-boleta-frontend
-
-Instala las dependencias:
-
-npm install
